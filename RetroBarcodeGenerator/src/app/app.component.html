@@ -1,0 +1,9 @@
+<div class="wrapper">
+
+
+    <h1 style="text-align:center">
+        Welcome to {{ title }}!
+    </h1>
+
+    <div class="box" *ngFor='let c of barcode' [ngStyle]="{'background-color': c}"></div>
+</div>

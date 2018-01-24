@@ -1,0 +1,12 @@
+.wrapper {
+    width: 1000px;
+    height: auto;
+    padding: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    outline: 1.5px dotted black;
+    display: inline-block;
+}
